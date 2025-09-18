@@ -1,3 +1,5 @@
 body {
-    background-color: lightblue;
+    background-image: url("assets/point-clip-game-art.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
