@@ -1,5 +1,5 @@
 body {
-     margin: 0;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     background-image: url("assets/point-clip-game-art.png");
@@ -7,11 +7,12 @@ body {
     background-size: cover;
 }
 
+/* START BUTTON */
 .start-btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  /* height: 100vh; Full viewport height */
 }
 
 #start-btn {
@@ -31,4 +32,18 @@ body {
 #start-btn:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.944);
     text-decoration: underline;
+}
+
+#typewriter{
+    color: white;
+}
+
+/* INTRO TAG */
+#typewriter-container {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
 }
